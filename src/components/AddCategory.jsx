@@ -20,7 +20,7 @@ export const AddCategory = ({setCategories, onNewCategory}) => {
 		<form onSubmit={onSubmit} aria-label='form'>
 			<input
 				type='text'
-				placeholder='---- Search gifs ----'
+				placeholder='Search gifs'
 				value={inputValue}
 				onChange={onInputChange}
 			/>

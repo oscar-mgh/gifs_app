@@ -9,7 +9,6 @@ describe('Pruebas en <GifExpertApp />', () => {
     const input = screen.getByRole('textbox');
     fireEvent.input( input, { target: { value: 'Goku' } });
     expect( input.value ).toBe('Goku');
-    screen.debug()
 
   });
   
